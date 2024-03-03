@@ -2,7 +2,7 @@ h2 {
   text-align: center;
 }
 
-p {
+section > p {
   padding-left: 150px;
   padding-right: 150px;
 }
