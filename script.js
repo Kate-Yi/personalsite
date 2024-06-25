@@ -1,5 +1,5 @@
 const nav = document.querySelector(".elements");
-const button = document.querySelector(".rows");
+const button = document.querySelector(".burgerDiv");
 const spans = document.querySelectorAll(".span");
 
 function toggler() {
