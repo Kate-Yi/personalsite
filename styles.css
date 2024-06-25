@@ -168,18 +168,19 @@ input {
     margin: 4px 0;
 }
 
-/* Section Styling */
+/* Main Styling */
 main {
     padding-top: 4rem; /* Adjust for navbar height */
 }
 
+/* Section Styling */
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
+    padding: 4rem 1rem 1rem 1rem; /* Adjust for navbar height */
     text-align: center;
 }
 
@@ -255,4 +256,3 @@ form input, form textarea {
         max-width: 150px; /* Adjust as needed */
     }
 }
-
