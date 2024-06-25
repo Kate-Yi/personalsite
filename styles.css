@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -109,4 +109,150 @@ input {
 
 #contact {
   height: 100vh;
+} */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Fixed Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .elements {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .elements .nav-el {
+    margin: 0 1rem;
+}
+
+.navbar .elements .nav-el a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.burgerDiv {
+    display: none; /* This will be used for a responsive burger menu */
+}
+
+.burgerDiv .rows {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burgerDiv .span {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+/* Section Styling */
+main {
+    padding-top: 4rem; /* Adjust for navbar height */
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Project Divs */
+#projects div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem 0;
+}
+
+#projects img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Example media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar .elements {
+        display: none;
+    }
+    
+    .burgerDiv {
+        display: flex;
+    }
+    
+    .navbar.active .elements {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: black;
+        width: 100%;
+    }
+    
+    .navbar.active .elements .nav-el {
+        margin: 1rem 0;
+    }
+    
+    #projects img {
+        max-width: 200px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    #projects img {
+        max-width: 150px; /* Adjust as needed */
+    }
+}
+
