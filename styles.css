@@ -1,6 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  width: 100vw;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .elements {
@@ -71,15 +78,11 @@
 }
 
 a {
-  color: white;
-}
-
-a:hover {
-  color: red;
+  color: black;
 }
 
 a:visited {
-  color: white;
+  color: black;
 }
   
 #aboutme {
