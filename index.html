@@ -8,8 +8,46 @@
 </head>
 <body>
   <header>
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
+    <section id="aboutme">
+      <h1>About Me!</h1>
+      <p>Hey there, my name is Kate Yi. Welcome to my personal site! I am currently in my last year of high school, about to take my final IB exams this November. </br> My hobbies include music, theatre, STEM, learning to code and working on various projects. Currently, the languages I have learnt are basic Python, HTML and CSS. Feel free to take a look under 'Projects' or contact me under 'Contact' to connect!</p>
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+        <div>
+          <!-- img -->
+          <h2><a href="https://www.codedex.io//@porkateyi/html-final---restaurant-menu" target=“_blank”>Restaurant Menu</a></h2>
+          <p>Website for a fictional rock diner that showcases the menu and order form. Made using HTML and CSS.</p>
+        </div>
+        <div>
+          <!-- img -->
+          <h2><a href="https://www.codedex.io//@porkateyi/python-checkpoint" target=“_blank”>Rock Paper Scissors Lizard Spock</a></h2>
+          <p>Extended version of Rock Paper Scissors playable on the terminal. Made using python and if, elif, else statements.</p>
+        </div>
+        <div>
+          <!-- img -->
+          <h2>Discord MemeBot</h2>
+          <p>Discord bot that sends a random meme when the user types $meme. Made using python on VS Code.</p>
+        </div>
+    </section>
+    <section id="contact">
+      <h1>Send me a message and let's connect!</h1>
+      <form>
+        <label><input type="text" name="name" required>Enter your name: </label>
+        <label><input type="email" name="email" required>Your email: </label>
+        <label><textarea rows=“5” cols=“10” required></textarea>Description: </label>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
   </main>
   <footer>
   </footer>
