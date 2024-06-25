@@ -2,13 +2,22 @@ nav {
   background-color: black;
   position: fixed;
   top: 0;
+  width: 100%;
 }
 
 li {
   list-style-type: none;
-  display: inline;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: white;
+}
+
+a:visited { 
+  color: white;
+}
+
+a:hover {
+  color: red;
 }
 
 body {
