@@ -8,26 +8,30 @@ header {
   z-index: 1000;
 }
 
-li {
+nav > li {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   color: white;
 }
 
-a:visited { 
-  color: white;
+nav > a:hover {
+  color: red;
 }
 
-a:hover {
-  color: red;
+section > a:visited { 
+  color: purple;
+}
+
+section > a:hover {
+  color: dark blue;
 }
 
 body {
   background-color: rgba(203, 207, 217, 0.64);
 }
 
-section {
+div {
   height: 100vh;
 }
 
