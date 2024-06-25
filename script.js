@@ -1,4 +1,4 @@
-const nav = document.querySelector(".elements");
+/* const nav = document.querySelector(".elements");
 const button = document.querySelector(".rows");
 const spans = document.querySelectorAll(".span");
 
@@ -9,4 +9,4 @@ function toggler() {
   spans[2].classList.toggle("line-2");
 }
 
-button.addEventListener("click", toggler);
+button.addEventListener("click", toggler); */
