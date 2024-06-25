@@ -1,7 +1,7 @@
 li {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
+  display: inline;
+  text-align: center;
 }
 
 body {
