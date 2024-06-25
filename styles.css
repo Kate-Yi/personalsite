@@ -180,7 +180,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 4rem 1rem 1rem 1rem; /* Adjust for navbar height */
+    padding: 8rem 1rem 1rem 1rem; /* Adjust for navbar height */
     text-align: center;
 }
 
@@ -256,3 +256,4 @@ form input, form textarea {
         max-width: 150px; /* Adjust as needed */
     }
 }
+
