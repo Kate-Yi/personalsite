@@ -1,3 +1,4 @@
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,6 +60,84 @@
         <label>Name:<input type="text" name="name" required></label> 
         <label>Email:<input type="email" name="email" required></label> 
         <label>Message:<textarea rows=“5” cols=“10” required></textarea></label> 
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made with love by Kate Yi</p>
+  </footer>
+</body>
+</html>
+-->
+
+<!-- new code to try from ChatGpt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kate Yi's Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="elements">
+      <li class="nav-el"><a href="#aboutme">About Me</a></li>
+      <li class="nav-el"><a href="#projects">Projects</a></li>
+      <li class="nav-el"><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="burgerDiv" onclick="toggleMenu()">
+      <div class="rows">
+       <div class="span"></div>
+       <div class="span"></div>
+       <div class="span"></div>
+      </div>
+    </div>
+  </nav>
+  <script>
+    function toggleMenu() {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('active');
+    }
+  </script>
+  <main>
+    <section id="aboutme">
+      <h1>About Me!</h1>
+      <p>Hey there, welcome to my personal site! My name is Kate Yi and I am currently in my last year of high school, about to take my final IB exams this November. My hobbies include music, theatre, STEM, learning to code and working on various projects. Currently, the languages I have learnt are basic Python, HTML and CSS. Feel free to take a look under 'Projects' or contact me under 'Contact' to connect!</p>
+    </section>
+    <section id="projects">
+      <h1>Projects!</h1>
+        <div>
+          <h3><a href="https://kate-yi.github.io/daynightbuildings/" target="_blank">Buildings in the Day and Night</a></h3>
+          <img src="day.png" alt="Day View of Buildings">
+          <img src="night.png" alt="Night View of Buildings">
+          <p>Description: Image of buildings that change in colour and background from day to night and vice versa when the size of the browser window changes. Made using HTML and CSS.</p>
+        </div>
+        <div>
+          <h3><a href="https://www.codedex.io//@porkateyi/html-final---restaurant-menu" target="_blank">Restaurant Menu</a></h3>
+          <img src="menu.png" alt="Restaurant Menu">
+          <p>Description: Website for a fictional rock diner that showcases the menu and order form. Made using HTML and CSS.</p>
+        </div>
+        <div>
+          <h3><a href="https://www.codedex.io//@porkateyi/python-checkpoint" target="_blank">Rock Paper Scissors Lizard Spock</a></h3>
+          <img src="rpsgame.png" alt="Rock Paper Scissors Lizard Spock Game">
+          <p>Description: Extended version of Rock Paper Scissors playable on the terminal. Made using Python and if, elif, else statements.</p>
+        </div>
+        <div>
+          <h3>Discord MemeBot</h3>
+          <img src="meme.png" alt="Discord MemeBot">
+          <img src="codeformeme.png" alt="Code for MemeBot">
+          <p>Description: Discord bot that sends a random meme when the user types $meme. Made using Python on VS Code.</p>
+        </div>
+    </section>
+    <section id="contact">
+      <h1>Contact!</h1>
+      <h3>Send me a message and let's connect!</h3>
+      <form>
+        <label>Name:<input type="text" name="name" required></label> 
+        <label>Email:<input type="email" name="email" required></label> 
+        <label>Message:<textarea rows="5" cols="10" required></textarea></label> 
         <input type="submit" value="Submit">
       </form>
     </section>
