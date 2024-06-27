@@ -64,7 +64,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 8rem 2rem 2rem 2rem; 
+    padding: 8rem 1.5rem 2rem 1.5rem; 
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ section {
     width: 100%;
     max-width: 300px; 
     height: auto;
-    display: block;
+    display: inline;
     margin-bottom: 1rem;
 }
 
