@@ -68,10 +68,6 @@ section {
     text-align: center;
 }
 
-p {
-    max-width: 800px;
-}
-
 #projects div {
     display: flex;
     flex-direction: column;
