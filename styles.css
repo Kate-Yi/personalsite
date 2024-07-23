@@ -54,6 +54,10 @@
     margin: 4px 0;
 }
 
+main {
+    padding: 2rem;
+}
+
 section {
     min-height: 90vh;
     display: flex;
