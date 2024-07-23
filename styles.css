@@ -68,6 +68,10 @@ section {
     text-align: center;
 }
 
+#aboutme p {
+    max-width: 70%;
+}
+
 /*
 #projects div {
     display: flex;
