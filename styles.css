@@ -55,11 +55,11 @@
 }
 
 main {
-    padding-top: 4rem; 
+    padding-top: 3rem; 
 }
 
 section {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
