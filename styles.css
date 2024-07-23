@@ -12,7 +12,7 @@
     width: 100%;
     background-color: black;
     color: white;
-    padding: 0 0;
+    padding: 1rem 0;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -54,17 +54,13 @@
     margin: 4px 0;
 }
 
-main {
-    padding-top: 3rem; 
-}
-
 section {
     min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 4.5rem 2rem 2rem 2rem; 
+    padding: 1rem 2rem; 
     text-align: center;
 }
 
