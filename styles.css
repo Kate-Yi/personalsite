@@ -55,16 +55,16 @@
 }
 
 main {
-    /* padding: 2.5rem; */
+    padding: 2.5rem;
 }
 
 section {
-    min-height: 95vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding: 2rem 1rem; */
+    padding: 2rem 1rem;
     text-align: center;
 }
 
