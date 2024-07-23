@@ -87,7 +87,8 @@ section {
 }
 
 .project-image {
-    max-width: 50%;
+    display: inline;
+    max-width: 40%;
     height: auto; 
     border-radius: 10px; 
     margin-bottom: 10px;
