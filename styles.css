@@ -85,6 +85,34 @@ section {
     margin-bottom: 1rem;
 }
 
+/*
+#projects h2 {
+    margin-bottom: 10px;
+}
+
+.project-tile {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-tile h2 {
+    margin-bottom: 10px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #333;
+}
+*/
+
 form {
     display: flex;
     flex-direction: column;
